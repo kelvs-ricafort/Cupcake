@@ -90,7 +90,7 @@ class OrderViewModel: ViewModel() {
      */
     private fun pickupOptions(): List<String> {
         val dateOptions = mutableListOf<String>()
-        val formatter = SimpleDateFormat("E MMM dd, yyyy", Locale.getDefault())
+        val formatter = SimpleDateFormat("EEEE, MMMM dd, yyyy", Locale.getDefault())
         val calendar = Calendar.getInstance()
         // add current date and the following 3 dates.
         repeat(4) {

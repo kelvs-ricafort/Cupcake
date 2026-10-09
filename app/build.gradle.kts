@@ -44,7 +44,8 @@ kotlin {
         jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_11)
         freeCompilerArgs.addAll(
             listOf(
-                "-opt-in=androidx.compose.material3.ExperimentalMaterial3Api"
+                "-opt-in=androidx.compose.material3.ExperimentalMaterial3Api",
+                "-XXLanguage:+PropertyParamAnnotationDefaultTargetMode"
             )
         )
     }
