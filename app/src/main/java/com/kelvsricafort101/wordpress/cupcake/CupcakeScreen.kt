@@ -37,7 +37,8 @@ enum class CupcakeScreen(@StringRes val title: Int) {
     Start(title = R.string.app_name),
     Flavor(title = R.string.choose_flavor),
     Pickup(title = R.string.pickup_date),
-    Summary(title = R.string.order_summary)
+    Summary(title = R.string.order_summary),
+    About(title = R.string.about_app)
 }
 
 @Composable

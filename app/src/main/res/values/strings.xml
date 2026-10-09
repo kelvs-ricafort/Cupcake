@@ -1,10 +1,11 @@
 <resources>
     <string name="app_name">Cupcake</string>
-
+    <!-- Start Order Screen -->
     <string name="order_cupcakes">Order Cupcakes</string>
     <string name="one_cupcake">One Cupcake</string>
     <string name="six_cupcakes">Six Cupcakes</string>
     <string name="twelve_cupcakes">Twelve Cupcakes</string>
+    <!-- Flavor Screen/ Pickup Screen-->
     <string name="choose_flavor">Choose Flavor</string>
     <string name="vanilla">Vanilla</string>
     <string name="chocolate">Chocolate</string>
@@ -15,6 +16,7 @@
     <string name="cancel">Cancel</string>
     <string name="next">Next</string>
     <string name="choose_pickup_date">Choose Pickup Date</string>
+    <!-- Summary Screen -->
     <string name="order_summary">Order Summary</string>
     <string name="send">Send Order to Another App</string>
     <string name="quantity">Quantity</string>
@@ -24,9 +26,28 @@
     <string name="total_price">Total %s</string>
     <string name="new_cupcake_order">New Cupcake Order</string>
     <string name="order_details">Quantity: %1$s \nFlavor: %2$s \nPickup date: %3$s \nTotal: %4$s \n\nThank you!</string>
+    <!-- Navigation -->
     <string name="back_button">Back</string>
     <plurals name="cupcakes">
         <item quantity="one">%d cupcake</item>
         <item quantity="other">%d cupcakes</item>
     </plurals>
+    <!-- About Screen -->
+    <string name="app_info">App Info</string>
+    <string name="about_app">About App</string>
+    <string name="about_app_description">A simple cupcake ordering app built with Jetpack Compose.</string>
+    <!-- App Features -->
+    <string name="app_features">App Features</string>
+    <string name="feature_order_cupcakes">Order cupcakes</string>
+    <string name="feature_multiple_language_support">Multiple language support</string>
+    <string name="feature_dark_mode_support">Dark Mode Support</string>
+    <!-- Developer Info -->
+    <string name="developer_info">Developer Info</string>
+    <string name="developer">Developer: %1$s</string>
+    <string name="developer_name">Kelvin Ricafort</string>
+    <!-- Version & Build Info -->
+    <string name="version">Version: %1$s</string>
+    <string name="build">Build: %1$d</string>
+
+
 </resources>

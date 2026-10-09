@@ -2,5 +2,11 @@
 <resources>
     <dimen name="padding_small">8dp</dimen>
     <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_large">24dp</dimen>
+    <dimen name="round_small">20dp</dimen>
+    <dimen name="app_icon_size">100dp</dimen>
     <dimen name="thickness_divider">1dp</dimen>
+    <dimen name="vertical_padding">8dp</dimen>
+    <dimen name="horizontal_arrangement">12dp</dimen>
+    <dimen name="vertical_arrangement">12dp</dimen>
 </resources>
