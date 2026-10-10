@@ -75,7 +75,7 @@ fun AboutScreen(
             text = stringResource(R.string.about_app_description),
             style = MaterialTheme.typography.bodyLarge
         )
-        HorizontalDivider(modifier = Modifier.padding(vertical = dimensionResource(R.dimen.vertical_padding)))
+        HorizontalDivider(modifier = Modifier.padding(vertical = dimensionResource(R.dimen.padding_small)))
 
         // App Info
         AboutSection(

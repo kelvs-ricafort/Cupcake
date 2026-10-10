@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">Cupcake</string>
+    <!-- Navigation -->
+    <string name="navigation_menu">Open navigation menu</string>
+    <string name="home">Home</string>
     <!-- Start Order Screen -->
     <string name="order_cupcakes">Order Cupcakes</string>
     <string name="one_cupcake">One Cupcake</string>
