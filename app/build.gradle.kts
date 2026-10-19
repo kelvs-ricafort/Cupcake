@@ -13,8 +13,8 @@ android {
         applicationId = "com.kelvsricafort101.wordpress.cupcake"
         minSdk = 24
         targetSdk = 37
-        versionCode = 4
-        versionName = "1.2.1"
+        versionCode = 9
+        versionName = "1.7"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
@@ -26,7 +26,9 @@ android {
         release {
             optimization {
                 enable = true
-                packageScope = setOf("androidx.**", "kotlin.**", "kotlinx.**")
+            }
+            ndk {
+                debugSymbolLevel = "FULL"
             }
         }
     }
