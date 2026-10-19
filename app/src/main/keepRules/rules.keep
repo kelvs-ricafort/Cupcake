@@ -4,11 +4,14 @@
 # For more details, see
 #   https://d.android.com/r/tools/r8/keep-rules
 
-# Keep App Startup classes and initialization providers from being stripped or renamed
+# ==========================================
+# 1. Jetpack App Startup Fixes
+# ==========================================
+-dontwarn androidx.startup.**
 -keep class androidx.startup.** { *; }
-
-# Ensure all App Startup initializers are kept
+#noinspection ShrinkerUnresolvedReference
 -keep class * implements androidx.startup.Initializer { *; }
+
 
 # If your project uses WebView with JS, uncomment the following
 # and specify the fully qualified class name to the JavaScript interface
